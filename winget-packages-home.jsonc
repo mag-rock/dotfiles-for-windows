@@ -1,0 +1,51 @@
+{
+	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+	"Sources": [
+		{
+			"Packages": [
+				{ "PackageIdentifier": "CPUID.CPU-Z" },
+				{ "PackageIdentifier": "CrystalDewWorld.CrystalDiskInfo" },
+				{ "PackageIdentifier": "CrystalDewWorld.CrystalDiskMark" },
+				{ "PackageIdentifier": "IrfanSkiljan.IrfanView" },
+				{ "PackageIdentifier": "Synology.DriveClient" },
+				{ "PackageIdentifier": "AntibodySoftware.WizTree" },
+				{ "PackageIdentifier": "clsid2.mpc-hc" },
+				{ "PackageIdentifier": "Tailscale.Tailscale" },
+				{ "PackageIdentifier": "Dropbox.Dropbox" },
+				{ "PackageIdentifier": "AOMEI.Backupper.Standard" },
+				{ "PackageIdentifier": "Jellyfin.JellyfinMediaPlayer" },
+				{ "PackageIdentifier": "Notion.Notion" },
+				{ "PackageIdentifier": "Amazon.Kindle" },
+				{ "PackageIdentifier": "AutoHotkey.AutoHotkey" },
+				{ "PackageIdentifier": "Discord.Discord" },
+				{ "PackageIdentifier": "FastCopy.FastCopy" },
+				{ "PackageIdentifier": "RaspberryPiFoundation.RaspberryPiImager" },
+				{ "PackageIdentifier": "Wondershare.Filmora" },
+				{ "PackageIdentifier": "Zoom.Zoom.EXE" },
+				{ "PackageIdentifier": "Evernote.Evernote" },
+				{ "PackageIdentifier": "WinSCP.WinSCP" },
+			],
+			"SourceDetails": {
+				"Argument": "https://cdn.winget.microsoft.com/cache",
+				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name": "winget",
+				"Type": "Microsoft.PreIndexed.Package"
+			}
+		},
+		{
+			"Packages": [
+				// VLC media player
+				{ "PackageIdentifier": "XPDM1ZW6815MQM" },
+				// LINE Desktop
+				{ "PackageIdentifier": "XPFCC4CD725961" }
+			],
+			"SourceDetails": {
+				"Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier": "StoreEdgeFD",
+				"Name": "msstore",
+				"Type": "Microsoft.Rest"
+			}
+		}
+	],
+	"WinGetVersion": "1.10.340"
+}

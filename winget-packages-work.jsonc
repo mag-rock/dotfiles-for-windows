@@ -1,0 +1,45 @@
+{
+	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+	"Sources": [
+		{
+			"Packages": [
+				{ "PackageIdentifier": "DeepL.DeepL" },
+				{ "PackageIdentifier": "Google.JapaneseIME" },
+				{ "PackageIdentifier": "Anysphere.Cursor" },
+				{ "PackageIdentifier": "Git.Git" },
+				{ "PackageIdentifier": "JetBrains.Toolbox" },
+				{ "PackageIdentifier": "Microsoft.PowerShell" },
+				{ "PackageIdentifier": "WinSCP.WinSCP" },
+				{ "PackageIdentifier": "Obsidian.Obsidian" },
+				{ "PackageIdentifier": "Microsoft.PowerToys" },
+				{ "PackageIdentifier": "Elgato.StreamDeck" },
+				{ "PackageIdentifier": "voidtools.Everything" },
+				{ "PackageIdentifier": "7zip.7zip" },
+				{ "PackageIdentifier": "Google.Chrome" },
+				{ "PackageIdentifier": "Mozilla.Firefox" },
+				{ "PackageIdentifier": "Logitech.OptionsPlus" }
+			],
+			"SourceDetails": {
+				"Argument": "https://cdn.winget.microsoft.com/cache",
+				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name": "winget",
+				"Type": "Microsoft.PreIndexed.Package"
+			}
+		},
+		{
+			"Packages": [
+				{
+					// ChatGPT
+					"PackageIdentifier": "9NT1R1C2HH7J"
+				}
+			],
+			"SourceDetails": {
+				"Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier": "StoreEdgeFD",
+				"Name": "msstore",
+				"Type": "Microsoft.Rest"
+			}
+		}
+	],
+	"WinGetVersion": "1.10.340"
+}
